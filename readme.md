@@ -1,4 +1,4 @@
-# DTDataGlove
+# Doxygen Documentation
 
 ## Genereal Information
 
