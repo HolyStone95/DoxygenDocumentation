@@ -82,23 +82,23 @@ Let's call our Doxyfile *"example_config"*
 ```
 Then you can edit the default configuration file to serve your needs. The options are explained in the file. Some of the important things you need to pay attention to are:
 
-    the name of your project:
+the name of your project:
 ```
 PROJECT_NAME = 'your project name'
 ```
-    the input files (relative to the directory where you run doxygen):
+the input files (relative to the directory where you run doxygen):
 ```
 INPUT = ../include ../src
 ```
-    the directory where to put the documentation (if you leave it empty, then the documentation will be created in the directory where you run doxygen):
+the directory where to put the documentation (if you leave it empty, then the documentation will be created in the directory where you run doxygen):
 ```
 OUTPUT_DIRECTORY = 'your output directory'
 ```
-    the type of documentation you want to generate (HTML, LaTeX and/or something else):
+the type of documentation you want to generate (HTML, LaTeX and/or something else):
 ```
 GENERATE_HTML = YES
 ```
-    If HTML chosen, the following tells doxygen where to put the html documentation relative to OUTPUT_DIRECTORY:
+If HTML chosen, the following tells doxygen where to put the html documentation relative to OUTPUT_DIRECTORY:
 ```
 HTML_OUTPUT = html/
 ```
