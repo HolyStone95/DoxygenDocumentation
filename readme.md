@@ -2,7 +2,7 @@
 
 ## Genereal Information
 
-![](images/doxy.jpg)
+![](images/doxy.jpeg)
 
 - Index:
   1. [General Information](#general-information)
@@ -57,19 +57,19 @@ $ doxywizard
 ```
 A Gui will pop up. Now in the first tab called *Wizard*, section *Project* complete the two steps necessary inserting the *root* folder of your project, then specify the source code specific directory ( I suggest to simply put again the entire root project folder and simply activate the option *"scan recursively"*). As last you just need to insert the destination folder for the documentation, in my case is *.../DoxygenDocumentation/DoxygenDocumentation/*. This folder will be then populated with two other folders, one for *html* documentation and the other for documentation in *latex* format.
 
-![](images/doxy_project.jpg)
+![](images/doxy_project.png)
 
 While in the *Wizard* tab, take a look at the *Mode* section, which will enable the documentation for all entities, or just for the commented ones, and also some option for optimizing the documentation based on the file formats that we want to document. The *Output* section allows you to choose even more documentation formats for the output, and the *Diagrams* section allows you to generate different kind of diagrams.
 
-![](images/doxy_mode.jpg)
+![](images/doxy_mode.png)
 
 Now, we've finished with the *Wizard* tab, let's move on to the *Expert* tab, that allows you to modify the original *Doxyfile* using a Gui. The most important section here in the *HTML* one, which allows you to modify some appearances of the documentation that you will generate.
 
-![](images/doxy_expert.jpg)
+![](images/doxy_expert.png)
 
 Once we finish with this tab, let's go to the *Run* panel and simply press the button *Run doxygen* and the documentation will be generated.
 
-![](images/doxy_run.jpg)
+![](images/doxy_run.png)
 
 ### Using Only Doxygen
 
