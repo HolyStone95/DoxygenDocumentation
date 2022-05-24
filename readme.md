@@ -2,7 +2,7 @@
 
 ## Genereal Information
 
-![text](images/doxy.jpg)
+![](images/doxy.jpg)
 
 - Index:
   1. [General Information](#general-information)
